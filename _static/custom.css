@@ -1,10 +1,11 @@
 .wy-side-nav-search > a, .wy-side-nav-search > a:hover
 {
     width: 100%;
-    height: 32px;
-    line-height: 24px;
-    background: url('icon_x32.png') 3.7em center no-repeat;
+    height: 128px;
+    line-height: 132px;
+    background: url('icon_x128.png') center no-repeat;
     /*padding: 7px 23px 7px 10px;*/
+    text-shadow: 2px 2px 2px #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000;
 }
 
 .wy-side-nav-search > a.icon.icon-home:before, .wy-side-nav-search > a:hover.icon.icon-home:before {
