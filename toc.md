@@ -1,0 +1,115 @@
+Proposed TOC
+============
+*Proposal of the table of contents for the docs. Suggestions and feedback welcome.*
+
+- OpenRCT2
+  - About
+  - Installing
+    - Installing OpenRCT2 On Windows
+    - Installing OpenRCT2 On Mac OSX X
+    - Installing OpenRCT2 On Linux
+  - Setup
+    - Configuring settings
+    - Options
+    - Managing User Content
+    - Running Dedicated Servers
+  - Playing
+    - Introduction
+    - Getting Started
+      - Starting A Scenario
+      - Starting A Sandbox
+    - Footpaths
+      - Building Queues
+      - Building Bridges / Tunnels
+      - Placing Footpath Items
+      - Placing Signs
+    - Shops & Stalls
+      - Customising Shop Items
+    - Rides
+      - Constructing Flat Rides
+      - Constructing Tower-Based Rides
+      - Constructing Track-Based Rides
+      - Constructing Roller Coasters
+        - Controlling G-Forces
+        - Using Brakes
+        - Using Block Brakes
+        - Creating Launch Powered Coasters
+        - Creating Multiple Stations
+        - Creating Synchronised / Dueling Coasters
+      - Specific Ride Construction
+        - Launched-Freefall / Roto-drop
+        - Giga Roller Coasters
+        - Multi-Dimension Roller Coasters
+      - Track Designs
+        - Placing Track Designs
+        - Saving Custom Track Designs
+      - Demolishing Rides
+      - Ride Ratings
+        - Increasing Excitement
+        - Controlling Intensity
+        - Reducing Nausea
+      - Ride Admission
+      - Ride Popularity
+      - Ride Maintinance
+      - Ride Management
+    - Landscaping
+      - Terrain
+      - Water
+      - Buying Land
+    - Scenery
+      - Clearing Scenery
+      - Placing Scenery
+      - Placing Banners
+      - Creating Custom Buildings
+      - Creating Custom Stations
+      - Creating Custom Supports
+      - Creating Food Courts
+    - View
+      - View Options
+      - Using The Map Window
+      - Using Viewports
+    - Finance
+      - Borrowing Money
+    - Research
+    - Staff
+      - Hiring Staff
+      - Organising Staff
+    - Guests
+      - Managing Guests
+      - Tracking Guests
+      - Attracting Guests To The Park
+    - Marketing
+    - Park Rating
+    - Park Awards
+    - Climate
+    - Scenario Editor
+      - Choosing Objects
+      - Random Map Generator
+      - Setting The Park Perimeter
+      - Setting Research Order
+      - Setting Park Options
+      - Setting Scenario Options
+      - Converting Saved Games To Scenarios
+    - Multiplayer
+    - Cheats & Hacks
+      - Sandbox Mode
+      - Disabling Clearance Checks & Support Limits
+    - Debugging Tools
+      - Using The Console
+      - Using The Tile Inspector
+    - Title Sequence
+      - Creating A Title Sequence
+  - Contribute
+    - Coding
+    - Graphics
+    - Translation
+    - Reporting Bugs
+    - Suggesting Features
+  - Custom Content
+    - Creating Custom Shops
+    - Creating Custom Vehicles
+    - Creating Custom Rides
+    - Creating Custom Scenery
+    - Creating Custom Scenery Sets 
+    - Creating Custom Entrances
+    - Creating Custom Water
