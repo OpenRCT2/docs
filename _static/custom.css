@@ -1,8 +1,12 @@
 .wy-side-nav-search > a, .wy-side-nav-search > a:hover
 {
-    text-indent: -9999px;
     width: 100%;
-    background: url('icon_x32.png') 2em center no-repeat,
-                url('orctText.png') center no-repeat;
-    padding: 7px 23px 7px 10px;
+    height: 32px;
+    line-height: 24px;
+    background: url('icon_x32.png') 3.7em center no-repeat;
+    /*padding: 7px 23px 7px 10px;*/
+}
+
+.wy-side-nav-search > a.icon.icon-home:before, .wy-side-nav-search > a:hover.icon.icon-home:before {
+    display: none;
 }
