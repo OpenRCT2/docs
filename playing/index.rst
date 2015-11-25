@@ -5,3 +5,4 @@ Playing
    :titlesonly:
 
    footpath/index
+   multiplayer/index
