@@ -2,3 +2,6 @@ _build/
 build/
 
 project.lock.json
+
+*~
+.project
