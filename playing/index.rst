@@ -6,3 +6,4 @@ Playing
 
    footpath/index
    multiplayer/index
+   staff/index
