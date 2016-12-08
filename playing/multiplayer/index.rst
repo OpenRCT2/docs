@@ -12,7 +12,6 @@ When you open the multiplayer window you will see a list of public servers and s
 
 If you want to join a server that is not advertised on the public server list, you must click the "New server" button and enter the hostname or IP address (and optionally a port if the server is not using the default OpenRCT2 port, 11753). Upon doing this, the server will be saved to your server list so you do not have to type the address in every time you want to join it.
 
-
 Starting a server 
 -----------------
 
@@ -32,11 +31,12 @@ Additional arguments can be used to change the behavior of the server.
 =================   ===========================  ==================================================
     Argument                 Variable                  Description
 =================   ===========================  ==================================================
---console           N/A                          Keeps the console window open
---headless          N/A                          Runs OpenRCT without graphical interface
---port              Port Number                  Changes the server port number
---user-data-path    Path to config.ini folder    Changes the server configuration data path
---verbose           N/A                          Output additional information to the console
+`--console`           N/A                          Keeps the console window open (only on Windows)
+`--headless`          N/A                          Runs OpenRCT without graphical interface
+`--help`              N/A                          Prints out help for CLI 
+`--port`              Port Number                  Changes the server port number
+`--user-data-path`    Path to config.ini folder    Changes the server configuration data path
+`--verbose`           N/A                          Output additional information to the console
 =================   ===========================  ==================================================
 
 Example (Windows): ``"C:\MyOpenRCTInstall\openrct2.exe" host "C:\MyServerSaves\MyServer.sv6" --port 11753 --headless --console --verbose --user-data-path "E:\MyServerConfig"``
