@@ -13,11 +13,12 @@ Since OpenRCT2 runs in software rendering mode (an OpenGL mode is in development
 Operating system
 ----------------
 
-Currently, OpenRCT2 runs on Windows, macOS and Linux. There is also an experimental Android port.
+Currently, OpenRCT2 runs on Windows, macOS, Linux and FreeBSD. There is also an experimental Android port.
 
 - Windows: Vista or higher
 - macOS: 10.9 (Mavericks) or higher
 - Linux: confirmed to work on Ubuntu (14.04 and higher) and Arch, but any modern distribution should work. The goal is to eventually have OpenRCT2 in the repositories of many distibutions.
+- FreeBSD: minimum version unknown. It should probably work on the latest stable version.
 
 OpenRCT2 does not officially work on Windows XP. At the time of writing (18 November 2016) it is still possible to compile OpenRCT2 for Windows XP, but there is no guarantee.
-OpenRCT2 does not currently support BSD operating systems, but it should not take much effort to add support for it.
+Support for other BSD operating systems should be easy to add.
