@@ -17,8 +17,8 @@ Open the footpath window by pressing toolbar button below or the default keyboar
 
 The bottom left toggle button will enable the place footpath tool. After enabling this, you can click any suitable map tile within the park to place footpath at. You can also drag the cursor along the map to place a strip of footpath. Footpaths will automatically connect together to form junctions or wide paths.
 
-![Simple footpaths]({{ "/assets/footpath_simple.gif" | absolute_url }})
+![Simple footpaths]({{ "/assets/footpath_simple.gif" | relative_url }})
 
 You can construct bridges by left clicking the bridge button and then navigating the footpath marker in the desired direction using the direction and slope toggle buttons.
 
-![Simple footpaths]({{ "/assets/footpath_bridge.gif" | absolute_url }})
+![Simple footpaths]({{ "/assets/footpath_bridge.gif" | relative_url }})
