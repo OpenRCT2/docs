@@ -1,5 +1,8 @@
-System requirements
-===================
+---
+layout: page
+title: "System Requirements"
+order: 0
+---
 
 OpenRCT2 should be able to run on almost every computer made in the last five years, and probably even older computers.
 An important thing to consider is that the game will use the native resolution of your monitor by default. If you run into performance problems, try lowering the used resolution in the Options window (this requires regular fullscreen mode) or resizing the window if you use windowed mode.
@@ -10,8 +13,7 @@ OpenRCT2 needs about 500 MB of free RAM. If your system is equipped with 2 GB of
 
 Since OpenRCT2 runs in software rendering mode (an OpenGL mode is in development), the CPU is much more heavily used than the GPU. A simple video chip will be sufficient.
 
-Operating system
-----------------
+## Operating system
 
 Currently, OpenRCT2 runs on Windows, macOS, Linux and FreeBSD. There is also an experimental Android port.
 
