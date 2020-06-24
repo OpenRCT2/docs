@@ -4,15 +4,13 @@
         {% assign attr = section[0] %}
         {% assign label = section[1] %}
 
+        <li class="nav-header">{{ label }}
+            <ul>
         {% for page in site.categories[attr] %}
-            {% if forloop.first %}
-                <li class="nav-header">{{ label }}<ul>
-            {% endif %}
             <li data-order="{{ page.order }}"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-            {% if forloop.last %}
-                </ul></li>
-            {% endif %}
         {% endfor %}
+            </ul>
+        </li>
     {% endfor %}
 <!-- List additional links. It is recommended to add a divider
     e.g. <li class="divider"></li> first to break up the content. -->
