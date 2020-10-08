@@ -13,13 +13,3 @@ Contents:
    
    installing/index.rst
    playing/index.rst
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
