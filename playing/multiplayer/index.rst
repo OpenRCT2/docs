@@ -12,10 +12,33 @@ When you open the multiplayer window you will see a list of public servers and s
 
 If you want to join a server that is not advertised on the public server list, you must click the "New server" button and enter the hostname or IP address (and optionally a port if the server is not using the default OpenRCT2 port, 11753). Upon doing this, the server will be saved to your server list so you do not have to type the address in every time you want to join it.
 
-
-Starting a server
+Starting a server 
 -----------------
 
 If you want to start a server for your friends to join, you can start a new server from within the game and then immediately play on it. This can be done by clicking "Start Server" and loading a saved game. If you do not want your server to be listed on the public server you must make sure you have the "Advertise" option unchecked.
 
 If you are setting up a public server or are not on the same local area network as your friends - you must make sure that your server can be accessed from outside your local area network. If you are behind a router with Network Address Translation (NAT) enabled (very likely), you must configure your router to forward TCP connections on your chosen port (default is 11753) to your computer. Configuring your router will vary between router brands and will not be covered in this documentation.
+
+Starting a server (Advanced)
+----------------------------
+
+OpenRCT supports headless mode, useful for dedicated servers. You can enable headless mode by running: 
+
+``openrct2 host <saved game path> --headless``
+
+Additional arguments can be used to change the behavior of the server.
+
+=================   ===========================  ==================================================
+    Argument                 Variable                  Description
+=================   ===========================  ==================================================
+`--console`           N/A                          Keeps the console window open (only on Windows)
+`--headless`          N/A                          Runs OpenRCT without graphical interface
+`--help`              N/A                          Prints out help for CLI 
+`--port`              Port Number                  Changes the server port number
+`--user-data-path`    Path to config.ini folder    Changes the server configuration data path
+`--verbose`           N/A                          Output additional information to the console
+=================   ===========================  ==================================================
+
+Example (Windows): ``"C:\MyOpenRCTInstall\openrct2.exe" host "C:\MyServerSaves\MyServer.sv6" --port 11753 --headless --console --verbose --user-data-path "E:\MyServerConfig"``
+
+Additional server information can be changed in the ``config.ini`` file. In Windows, by default, this is located under ``"%userprofile%/Documents/OpenRCT2/"``
