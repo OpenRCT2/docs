@@ -1,5 +1,6 @@
 _build/
 build/
+.idea/
 
 project.lock.json
 
