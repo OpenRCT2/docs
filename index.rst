@@ -13,3 +13,4 @@ Contents:
    
    installing/index.rst
    playing/index.rst
+   advanced/index.rst
