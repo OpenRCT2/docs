@@ -22,7 +22,7 @@ If you are setting up a public server or are not on the same local area network 
 Starting a server (Advanced)
 ----------------------------
 
-OpenRCT supports headless mode, useful for dedicated servers. You can enable headless mode by running: 
+OpenRCT2 supports headless mode, useful for dedicated servers. You can enable headless mode by running:
 
 ``openrct2 host <saved game path> --headless``
 
@@ -32,7 +32,7 @@ Additional arguments can be used to change the behavior of the server.
     Argument                 Variable                  Description
 ====================   =============================  ==================================================
  `--console`           N/A                             Keeps the console window open (only on Windows)
- `--headless`          N/A                             Runs OpenRCT without graphical interface
+ `--headless`          N/A                             Runs OpenRCT2 without graphical interface
  `--help`              N/A                             Prints out help for CLI 
  `--port`              Port Number                     Changes the server port number
  `--user-data-path`    Path to config.ini folder       Changes the server configuration data path
