@@ -30,7 +30,7 @@ One of the two most important commands in a title sequence is Location. This com
 
 .. image:: _static/sequences_location.png
 
-Something worth noting is the location command can be finicky and not be exactly where you want it to be. If this is the case, select the location command once it's in the list and click Edit. From there, you can tweak the coordinates until you're satisfied. It might be helpful to do shrink the OpenRCT2 window to the smallest possible size (the resolution you see in this screenshot) when selecting my coordinates so that you can centre them more easily.
+Something worth noting is the location command can be finicky and not be exactly where you want it to be. If this is the case, select the location command once it's in the list and click Edit. From there, you can tweak the coordinates until you're satisfied. It might be helpful to shrink the OpenRCT2 window to the smallest possible size (the resolution you see in this screenshot) when selecting my coordinates so that you can centre them more easily.
 
 Wait
 ----
