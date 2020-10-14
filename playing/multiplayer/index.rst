@@ -28,16 +28,16 @@ OpenRCT2 supports headless mode, useful for dedicated servers. You can enable he
 
 Additional arguments can be used to change the behavior of the server.
 
-====================   =============================  ==================================================
-    Argument                 Variable                  Description
-====================   =============================  ==================================================
- `--console`           N/A                             Keeps the console window open (only on Windows)
- `--headless`          N/A                             Runs OpenRCT2 without graphical interface
- `--help`              N/A                             Prints out help for CLI 
- `--port`              Port Number                     Changes the server port number
- `--user-data-path`    Path to config.ini folder       Changes the server configuration data path
- `--verbose`           N/A                             Output additional information to the console
-====================   =============================  ==================================================
+======================   =============================  ==================================================
+    Argument                 Variable                     Description
+======================   =============================  ==================================================
+ ``--console``             N/A                             Keeps the console window open (only on Windows)
+ ``--headless``            N/A                             Runs OpenRCT2 without graphical interface
+ ``--help``                N/A                             Prints out help for CLI 
+ ``--port``                Port Number                     Changes the server port number
+ ``--user-data-path``      Path to config.ini folder       Changes the server configuration data path
+ ``--verbose``             N/A                             Output additional information to the console
+======================   =============================  ==================================================
 
 Example (Windows): ``"C:\MyOpenRCTInstall\openrct2.exe" host "C:\MyServerSaves\MyServer.sv6" --port 11753 --headless --console --verbose --user-data-path "E:\MyServerConfig"``
 
