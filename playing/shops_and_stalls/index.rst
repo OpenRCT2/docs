@@ -44,7 +44,7 @@ Utility
 
 The last group of stalls have some specific functional purpose in your park. There are only a handful of shops & stalls in this category.
 
-* **Information Kiosk** - These stalls sell park maps and umbrellas, as well as being the only stall to connect on all sides. Park maps help keep guests from feeling lost, while umbrellas keep peeps from getting negative thoughts in the rain. Guests are very eagar to buy umbrellas when it starts raining, so prices can be set high to earn a large profit!
+* **Information Kiosk** - This stall sells park maps and umbrellas, as well as being the only stall to connect on all sides. Park maps help keep guests from feeling lost, while umbrellas keep peeps from getting negative thoughts in the rain. Guests are very eager to buy umbrellas when it starts raining, so prices can be set high to earn a large profit!
 * **First Aid Room** - This stall is special in that it cannot charge a fee for usage. This stall treats guests feeling sick by reducing their nausea. By building a First Aid Room near the exits of your more nauseous rides, you can keep your footpaths clean of vomit.
 * **Cash Machine** - This stall allows your guests to withdraw money so that they can continue to spend money in your park. As your park gets bigger with more rides, your guests may start to run out of money before they actually want to leave. A cash machine can keep them in the park, spending more money.
 * **Toilets** - Toilets allow your guests to relieve themselves, lowering their 'toilet' stat. Remember you can choose to charge guests for the toilet.
