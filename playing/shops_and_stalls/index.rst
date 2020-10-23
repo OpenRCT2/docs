@@ -1,7 +1,7 @@
 Shops & Stalls
 ==============
 
-Some of the simplest buildings in the game are the many shops & stalls available to be built. Many of these shops sell one or two small items: a meal, a drink, or some souvenir of your park. While very cheap to build, they don't turn too large of profit. Managing the different aspects of shops & stalls can help to get some supplemental cash flowing, and in some cases, is actually the objective of the scenario!
+Some of the simplest buildings in the game are the many shops & stalls available to be built. Many of these shops sell one or two small items: a meal, a drink, or some souvenir of your park. While very cheap to build, they don't turn too large a profit. Managing the different aspects of shops & stalls is necessary to keep your guests satisfied and can help to get some supplemental cash flowing. In some cases, managing them is actually the objective of the scenario!
 
 General Information
 -------------------
