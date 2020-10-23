@@ -8,17 +8,17 @@ OpenRCT2 needs about 250 MB of disk space, including the required files from Rol
 
 OpenRCT2 needs about 500 MB of free RAM. If your system is equipped with 2 GB of RAM or more, it should be sufficient, though 1.5 GB or less might also work.
 
-Since OpenRCT2 runs in software rendering mode (an OpenGL mode is in development), the CPU is much more heavily used than the GPU. A simple video chip will be sufficient.
+Since OpenRCT2 runs in software rendering mode (by default), the CPU is much more heavily used than the GPU. A simple video chip will be sufficient. An OpenGL mode is also available in the Options window.
 
 Operating system
 ----------------
 
-Currently, OpenRCT2 runs on Windows, macOS, Linux and FreeBSD. There is also an experimental Android port.
+Currently, OpenRCT2 runs on Windows, macOS, Linux, FreeBSD, OpenBSD and NetBSD. There is also an experimental Android port.
 
 - Windows: Vista or higher
-- macOS: 10.9 (Mavericks) or higher
-- Linux: confirmed to work on Ubuntu (14.04 and higher) and Arch, but any modern distribution should work. The goal is to eventually have OpenRCT2 in the repositories of many distibutions.
-- FreeBSD: minimum version unknown. It should probably work on the latest stable version.
+- macOS: 10.13 (High Sierra) or higher
+- Linux: confirmed to work on Ubuntu (18.04 and higher) and Arch, but you should be able to compile it on any modern distribution. The goal is to eventually have OpenRCT2 in the repositories of many distibutions.
+- FreeBSD, OpenBSD, NetBSD: minimum version unknown.
 
-OpenRCT2 does not officially work on Windows XP. At the time of writing (18 November 2016) it is still possible to compile OpenRCT2 for Windows XP, but there is no guarantee.
+OpenRCT2 does not officially work on Windows XP. At the time of writing (24 October 2020) it is still possible to compile OpenRCT2 for Windows XP, but there is no guarantee.
 Support for other BSD operating systems should be easy to add.
