@@ -5,7 +5,7 @@ Every park needs several staff members to keep the guests happy and the rides wo
 
 * Handymen - these clean up litter, water gardens and optionally mow the grass.
 * Mechanics - these fix and check your rides.
-* Guards - these keep vandals at bay.
+* Security guards - these keep vandals at bay.
 * Entertainment - these keep your guests entertained and happy, especially in long queue lines.
 
 Using staff
