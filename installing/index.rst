@@ -6,5 +6,5 @@ Installing
 
    system-requirements
    installing-on-windows
-   installing-on-mac
+   installing-on-macos
    installing-on-linux
