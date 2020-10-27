@@ -12,5 +12,6 @@ Contents:
    :maxdepth: 2
    
    installing/index.rst
+   setup/index.rst
    playing/index.rst
    advanced/index.rst
