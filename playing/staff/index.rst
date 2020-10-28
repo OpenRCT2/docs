@@ -8,6 +8,8 @@ Every park needs several staff members to keep the guests happy and the rides wo
 * Security guards - these keep vandals at bay.
 * Entertainment - these keep your guests entertained and happy, especially in long queue lines.
 
+.. _staff_window:
+
 Using staff
 -----------
 Open the staff window by pressing the toolbar button below or the default keyboard shortcut ``S``.
