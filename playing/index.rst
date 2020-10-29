@@ -5,7 +5,8 @@ Playing
    :titlesonly:
 
    getting_started/index
+   finances/index
    footpath/index
    shops_and_stalls/index
-   multiplayer/index
    staff/index
+   multiplayer/index

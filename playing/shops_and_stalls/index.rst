@@ -1,3 +1,5 @@
+.. _shops_and_stalls:
+
 Shops & Stalls
 ==============
 
