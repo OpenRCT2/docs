@@ -3,6 +3,10 @@ Options
 
 The options menu can be accessed by clicking the options button in the top right of the screen on the main menu, or by clicking the 'Options' selection in the 'Disk and game options' dropdown while playing in a park.
 
+.. image:: _static/options_main_menu.png
+
+.. image:: _static/options_dropdown_button.png
+
 There are a number of options for OpenRCT2 that can be tuned to fit your preferences and needs. They are broken up into a number of different sections.
 
 Display
