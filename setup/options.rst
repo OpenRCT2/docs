@@ -1,6 +1,8 @@
 Options
 =======
 
+The options menu can be accessed by clicking the options button in the top right of the screen on the main menu, or by clicking the 'Options' selection in the 'Disk and game options' dropdown while playing in a park.
+
 There are a number of options for OpenRCT2 that can be tuned to fit your preferences and needs. They are broken up into a number of different sections.
 
 Display
@@ -226,3 +228,125 @@ Audio
   * *RollerCoaster Tycoon 1* - requires RCT1 data to work.
   * *RollerCoaster Tycoon 2* - requires RCT2 data to work.
   * *Random title music* - randomly select any of the options above.
+
+Controls and Interface
+----------------------
+
+* **Scroll view when pointer at screen edge**
+
+  When enabled, the view of the park will scroll when the mouse cursor is near the edge of the screen.
+
+* **Trap mouse cursor in window**
+
+  When enabled, the mouse cursor will stay locked inside the window.
+
+* **Invert right mouse dragging**
+
+  When enabled, the behavior when panning the view with the right mouse button will be flipped.
+
+* **Zoom to cursor position**
+
+  When enabled, zooming will center on the cursor's location instead of the middle of the screen.
+
+* **Shortcut keys...**
+
+  A button leading to the keyboard shortcuts menu. This window allows modification of the default keyboard shortcuts, and also allows some other functions to have shortcuts assigned.
+
+  To assign a new keyboard shortcut, click the function, then press the key to assign the shortcut. This key can also have modifiers (Shift, Ctrl, Alt)
+
+* **Current Theme**
+
+  A dropdown allowing selection of the theme for the UI. Themes affect all colors of the windows in the game. By default, there are two options, one which matches RCT1, and another which matches RCT2.
+
+* **Toolbar buttons**
+
+  The toggles in this section affect the visibility of different buttons along the top toolbar.
+
+  * **Finances** - Shows/hides the finances window, where more detailed financial information can be found.
+  * **Cheats** - Shows/hides the cheats window.
+  * **Research** - Shows/hides the research window, where research priorities can be specified.
+  * **Recent messages** - Shows/hides the recent messages window, which contains all text from announcements that appear at the bottom of the screen.
+  * **Mute** - When pressed, toggles the master audio for OpenRCT2.
+  * **Chat** - Shows/hides the chat window. Only available in multiplayer.
+
+Miscellaneous
+-------------
+
+* **Random title sequence**
+
+  When enabled, a random title sequence will be chosen from the available options when viewing the main menu.
+
+* **Title sequence**
+
+  A dropdown containing a list of all available title sequences, which play when viewing the main menu.
+
+* **Group scenario list**
+
+  Can be one of two values:
+
+  * *Difficulty Level* - group scenario tabs by their difficulty level, then by their expansion.
+  * *Source game* - group scenario tabs by their expansion, then by difficulty. Also allows the **Enable progressive unlocking** toggle, which locks later scenarios from starting before completing earlier scenarios.
+
+* **Enable early scenario completion**
+
+  When enabled, allows certain scenario objectives to be completed before their end date.
+
+* **Show 'real' names of guests**
+
+  When enabled, shows the guest's name instead of the guest number.
+
+* **Automatically place staff**
+
+  When enabled, staff will automatically be placed above a random path, instead of having to be placed manually.
+
+* **Automatically open shops and stalls**
+
+  When enabled, shops and stalls being built will start open instead of closed.
+
+* **Default inspection interval**
+
+  A dropdown which sets the default inspection time of newly built rides.
+
+Advanced
+--------
+
+* **Enable debugging tools**
+
+  When enabled, shows a number of features useful for debugging the game.
+
+* **Allow loading files with incorrect checksums**
+
+  When enabled, allows corrupt save files to be loaded to the best of OpenRCT2's ability.
+
+* **Export custom objects with saved games**
+
+  When enabled, saved games will include the custom objects used inside of the map.
+
+* **Stay connected after desynchronisation (Multiplayer)**
+
+  When enabled, the game will continue running after a desynchronisation. Both parks will still run, but they may diverge and behave differently in the future.
+
+* **Always use system file browser**
+
+  When enabled, OpenRCT2 will use the system's default file browser instead of the built-in file browser.
+
+* **Autosave frequency**
+
+  Sets how often OpenRCT2 will autosave.
+
+  Can be one of six values:
+
+  * *Every minute*
+  * *Every 5 minutes*
+  * *Every 15 minutes*
+  * *Every 30 minutes*
+  * *Every hour*
+  * *Never*
+
+* **Autosave amount**
+
+  Sets the number of autosaves OpenRCT2 will keep before deleting the oldest autosave.
+
+* **Path to RCT1 installation**
+
+  Sets the location of the RCT1 installation on the computer.
