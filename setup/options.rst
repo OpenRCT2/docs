@@ -14,7 +14,7 @@ There are a number of options dedicated to how the game runs on your screen.
 
   Can be one of three values:
 
-  * *Windowed* - the game will run inside a window with standard decorations like minimize and close buttons.
+  * *Windowed* - the game will run inside a window with standard decorations like minimise and close buttons.
   * *Fullscreen* - the game is allowed to take over the screen output, allowing the game to achieve better performance than Fullscreen (borderless window). Switching to and from the window (such as through Alt+Tab) will cause a short delay.
 
     * When Fullscreen is selected, you can also select the Display Resolution the game should run at. The options available depend on your monitor.
@@ -64,7 +64,7 @@ There are a number of options dedicated to how the game runs on your screen.
 
 * **Use vertical sync**
 
-  When enabled, attempts to synchronize frames with the monitor's refresh rate, preventing screen tearing.
+  When enabled, attempts to synchronise frames with the monitor's refresh rate, preventing screen tearing.
 
 * **Multithreading**
 
@@ -72,7 +72,7 @@ There are a number of options dedicated to how the game runs on your screen.
 
 * **Minimise fullscreen on focus loss**
 
-  When enabled, if the mouse cursor leaves the window in fullscreen mode, minimize the game to the taskbar.
+  When enabled, if the mouse cursor leaves the window in fullscreen mode, minimise the game to the taskbar.
 
 
 Rendering
