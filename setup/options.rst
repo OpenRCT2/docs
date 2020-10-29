@@ -1,7 +1,7 @@
 Options
 =======
 
-The options menu can be accessed by clicking the options button in the top right of the screen on the main menu, or by clicking the 'Options' selection in the 'Disk and game options' dropdown while playing in a park.
+The options menu can be accessed by clicking the options button in the top right of the screen on the main menu, or by clicking the “Options” selection in the “Disk and game options” dropdown while playing in a park.
 
 .. image:: _static/options_main_menu.png
 
@@ -147,15 +147,15 @@ Rendering
 
     * **Enable lighting effects on rides**
 
-      If enabled, some rides will emit a glow during nighttime and rainstorms
+      If enabled, some rides will emit a glow during nighttime and rainstorms.
 
 * **Render weather effects**
 
-  If enabled, rain and gloomy colours will be rendered during storms
+  If enabled, rain and gloomy colours will be rendered during storms.
 
   * **Disable lightning effect**
 
-    If enabled, the lightning effect during thunderstorms will not occur
+    If enabled, the lightning effect during thunderstorms will not occur.
 
 Culture and Units
 -----------------
@@ -168,7 +168,7 @@ Culture and Units
 
   Used to select the currency OpenRCT2 uses.
 
-  Selecting "Custom currency" will bring up a menu allowing you to specify a currency not built into OpenRCT2.
+  Selecting “Custom currency” will bring up a menu allowing you to specify a currency not built into OpenRCT2.
 
   .. image:: _static/custom_currency.png
 
@@ -182,11 +182,11 @@ Culture and Units
 
 * **Temperature**
 
-  Used to select the units for temperature. Can be either ``Celsius`` or ``Fahrenheit``
+  Used to select the units for temperature. Can be either ``Celsius`` or ``Fahrenheit``.
 
 * **Height Labels**
 
-  Used to select whether to show unit values (``+1``, ``-4``, etc.) or real values (``1.5m``, ``-6m``, etc.)
+  Used to select whether to show unit values (``+1``, ``-4``, etc.) or real values (``1.5m``, ``-6m``, etc.).
 
   .. image:: _static/height_units.png
 
@@ -256,7 +256,7 @@ Controls and Interface
 
   A button leading to the keyboard shortcuts menu. This window allows modification of the default keyboard shortcuts, and also allows some other functions to have shortcuts assigned.
 
-  To assign a new keyboard shortcut, click the function, then press the key to assign the shortcut. This key can also have modifiers (Shift, Ctrl, Alt)
+  To assign a new keyboard shortcut, click the function, then press the key to assign the shortcut. This key can also have modifiers (Shift, Ctrl, Alt).
 
 * **Current Theme**
 
