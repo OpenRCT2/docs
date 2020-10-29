@@ -284,6 +284,8 @@ Miscellaneous
 
   A dropdown containing a list of all available title sequences, which play when viewing the main menu.
 
+  The *Edit Title Sequences...* button can be pressed to manage and edit different title sequences. See :doc:`/advanced/title-sequences/index` for more information.
+
 * **Group scenario list**
 
   Can be one of two values:
