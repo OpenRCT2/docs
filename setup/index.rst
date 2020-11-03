@@ -1,0 +1,7 @@
+Setup
+-----
+
+.. toctree::
+   :titlesonly:
+
+   options
