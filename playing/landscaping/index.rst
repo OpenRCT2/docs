@@ -8,6 +8,8 @@ In addition, certain scenarios allow you to purchase addition land for building 
 Adjusting Terrain
 -----------------
 
+The terrain tool can be opened by clicking the toolbar button below or the default keyboard shortcut ``F1``.
+
 .. image:: _static/terrain_button.png
 
 The terrain tool is in charge of manipulating the park's terrain, in both the 3D slopes and texture.
@@ -42,6 +44,8 @@ When the tool only affects one tile, the tool is able to manipulate the individu
 
 Adjusting Water
 ---------------
+
+The water tool can be opened by clicking the toolbar button below or the default keyboard shortcut ``F2``.
 
 .. image:: _static/water_button.png
 
