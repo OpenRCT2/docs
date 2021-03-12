@@ -5,6 +5,7 @@ Playing
    :titlesonly:
 
    getting_started/index
+   main_interface/index
    finances/index
    footpath/index
    shops_and_stalls/index
