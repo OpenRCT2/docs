@@ -6,6 +6,8 @@
 Welcome to OpenRCT2's documentation!
 ====================================
 
+.. image:: _static/screenshot.png
+
 Contents:
 
 .. toctree::
