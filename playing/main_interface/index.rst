@@ -36,19 +36,19 @@ The second group consists of view options:
 The third group consists of build options:
 
 1. The **clear scenery** button. This allows you to clear large spaces easily. (It can optionally also clear paths.)
-2. The **land button**. Allows you to change land types and change elevation.
-3. The **water button**. Allows you to change water levels.
+2. The :ref:`land button <land_window>`. Allows you to change land types and change elevation.
+3. The :ref:`water button <water_window>`. Allows you to change water levels.
 4. The **scenery button**. Allows you to place scenery, which makes your park more beautiful.
-5. The **paths button**. Allows you to place paths and queue lines.
+5. The :ref:`footpaths button <footpaths>`. Allows you to place footpaths and queue lines.
 6. The **new rides button**. Opens up a window that allows you to build new rides in your park.
 
 The fourth group consists of management options:
 
-1. The **finances button**. This gives you insight into your finances and allows you to take out loans and marketing campaigns.
+1. The :ref:`finances button <finances>`. This gives you insight into your finances and allows you to take out loans and marketing campaigns.
 2. The **research and development button**. This gives you access to research and development settings, including funding, priorities, and checking status of the current invention.
 3. The **rides list button**. Shows a list of rides, shops and stalls, and facilities.
 4. The **park window button**. This opens up the park window (note that it is already open in the screenshot at the top of this page).
-5. The **staff button**. Allows you to hire and sack staff, check their status and assign them to specific areas.
+5. The :ref:`staff button <staff>`. Allows you to hire and sack staff, check their status and assign them to specific areas.
 6. The **guest list button**. This shows all your guests. You can use this to see what your guests want or need to improve their visit (and thus increase your park rating).
 
 Besides these, there are also some additional buttons that are not shown by default, but which can be enabled in the Options window.

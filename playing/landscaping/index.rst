@@ -5,6 +5,8 @@ The landscaping tools provided in OpenRCT2 enable you to create a wide variety o
 
 In addition, certain scenarios allow you to purchase addition land for building and development.
 
+.. _land_window:
+
 Adjusting Terrain
 -----------------
 
@@ -41,6 +43,8 @@ If you only want to change the texture of the terrain, you can toggle the paint 
 When the tool only affects one tile, the tool is able to manipulate the individual corners of a tile.
 
 .. image:: _static/terrain_single_tile.gif
+
+.. _water_window:
 
 Adjusting Water
 ---------------

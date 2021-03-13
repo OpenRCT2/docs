@@ -1,3 +1,5 @@
+.. _finances:
+
 Finances
 ========
 
