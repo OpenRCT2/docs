@@ -1,6 +1,8 @@
 {
+    // language - current active spelling language
+    "cSpell.language": "en-GB",
+    // words - list of words to be always considered correct
     "cSpell.words": [
         "openrct"
     ],
-    "cSpell.language": "en-GB"
 }
