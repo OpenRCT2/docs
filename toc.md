@@ -35,7 +35,7 @@ Proposed TOC
         - Using Block Brakes
         - Creating Launch Powered Coasters
         - Creating Multiple Stations
-        - Creating Synchronised / Dueling Coasters
+        - Creating Synchronised / Duelling Coasters
       - Specific Ride Construction
         - Launched-Freefall / Roto-drop
         - Giga Roller Coasters
@@ -50,7 +50,7 @@ Proposed TOC
         - Reducing Nausea
       - Ride Admission
       - Ride Popularity
-      - Ride Maintinance
+      - Ride Maintenance
       - Ride Management
     - Landscaping
       - Terrain

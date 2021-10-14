@@ -26,7 +26,7 @@ In OpenRCT2, income and expenses are divided into 14 groups:
 * **Food/drink sales:**: See “Shop sales”.
 * **Food/drink stock:** Self-explanatory.
 * **Staff wages:** These are paid every week. You can see how high the wages for every staff member are in the :ref:`Staff window <staff_window>`.
-* **Marketing:** Marketing brings extra guests to your park. This costs money, but succesful campaigns pay for themselves.
+* **Marketing:** Marketing brings extra guests to your park. This costs money, but successful campaigns pay for themselves.
 * **Research:** Researching new rides and scenery costs money, but you can set the amount of funding in the Research window.
 * **Loan interest:** Paid every week. 
 

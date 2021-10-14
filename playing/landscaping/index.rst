@@ -86,6 +86,6 @@ While this menu is open, land that your park already owns will show with a solid
 
 .. image:: _static/land_already_owned.gif
 
-To actually purchase the land, hover over a map tile that can be purchased and click. Just like the terrain tool, the size of land purchased can be adjusted using the -/+ buttons, or by clicking on the grid icon. Note that the price of the land being purchsed is shown at the bottom of the land rights menu.
+To actually purchase the land, hover over a map tile that can be purchased and click. Just like the terrain tool, the size of land purchased can be adjusted using the -/+ buttons, or by clicking on the grid icon. Note that the price of the land being purchased is shown at the bottom of the land rights menu.
 
 .. image:: _static/land_purchasing.gif
