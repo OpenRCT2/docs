@@ -124,7 +124,7 @@ Rendering
 
   * *Disabled* - No virtual floor is shown when building scenery off ground level.
   * *Clear (Transparent)* - An outline of the current building grid is shown beneath the scenery object being placed.
-  * *Glassy (Translucent)* - An outline of the current building grid is shown beneath the scenery object being placed, and the interior of the grid is a translucent olor.
+  * *Glassy (Translucent)* - An outline of the current building grid is shown beneath the scenery object being placed, and the interior of the grid is a translucent colour.
 
   .. image:: _static/virtual_floor_disabled.png
      :scale: 70 %
@@ -246,7 +246,7 @@ Controls and Interface
 
 * **Invert right mouse dragging**
 
-  When enabled, the behavior when panning the view with the right mouse button will be flipped.
+  When enabled, the behaviour when panning the view with the right mouse button will be flipped.
 
 * **Zoom to cursor position**
 
@@ -260,7 +260,7 @@ Controls and Interface
 
 * **Current Theme**
 
-  A dropdown allowing selection of the theme for the UI. Themes affect all colors of the windows in the game. By default, there are two options, one which matches RCT1, and another which matches RCT2.
+  A dropdown allowing selection of the theme for the UI. Themes affect all colours of the windows in the game. By default, there are two options, one which matches RCT1, and another which matches RCT2.
 
 * **Toolbar buttons**
 

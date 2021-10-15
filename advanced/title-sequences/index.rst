@@ -77,7 +77,7 @@ Other commands
 
 There are many more commands you can use in a title sequence. Load Scenario is self-explanatory; it loads a scenario from the scenario selection screen instead of a save game. You can use multiple load save/scenario commands in a title sequence if you want to feature multiple parks. Just place one after a wait command and continue the process as normal.
 
-Speed is an easy command to use. Just place one alongside a location command and change the speed to your desired setting. The speed settings are the same as the ones ingame; normal, quick, fast, and turbo. However, hyper speed is unavailable for use in title sequences. A title sequence should end with a Restart command.
+Speed is an easy command to use. Just place one alongside a location command and change the speed to your desired setting. The speed settings are the same as the ones in game; normal, quick, fast, and turbo. However, hyper speed is unavailable for use in title sequences. A title sequence should end with a Restart command.
 
 .. image:: _static/sequences_other_commands.png
 
@@ -86,4 +86,4 @@ Conclusion
 
 A good idea is to open the default title sequences in the title sequence editor and analyze them. Observe where they choose to focus and how long they stay there. The first shot of RCT1's title sequence has become iconic not just among the RCT community, but among many gamers as a symbol of PC nostalgia.
 
-Even when you master the commands of the title sequence editor, you can still go further. Tell stories with your title sequences. Take viewers on a tour of your favorite park. Have a title solely focused on following your favorite roller coaster or a train that goes around the park. You could even make a stop motion animation using quick wait commands! The title sequence editor has limitless potential, and it's up to you to determine what you do with it.
+Even when you master the commands of the title sequence editor, you can still go further. Tell stories with your title sequences. Take viewers on a tour of your favourite park. Have a title solely focused on following your favourite roller coaster or a train that goes around the park. You could even make a stop motion animation using quick wait commands! The title sequence editor has limitless potential, and it's up to you to determine what you do with it.

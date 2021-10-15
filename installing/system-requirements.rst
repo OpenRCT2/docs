@@ -17,7 +17,7 @@ Currently, OpenRCT2 runs on Windows, macOS, Linux, FreeBSD, OpenBSD and NetBSD. 
 
 - Windows: Vista or higher
 - macOS: 10.13 (High Sierra) or higher
-- Linux: confirmed to work on Ubuntu (18.04 and higher) and Arch, but you should be able to compile it on any modern distribution. The goal is to eventually have OpenRCT2 in the repositories of many distibutions.
+- Linux: confirmed to work on Ubuntu (18.04 and higher) and Arch, but you should be able to compile it on any modern distribution. The goal is to eventually have OpenRCT2 in the repositories of many distributions.
 - FreeBSD, OpenBSD, NetBSD: minimum version unknown.
 
 OpenRCT2 does not officially work on Windows XP. At the time of writing (24 October 2020) it is still possible to compile OpenRCT2 for Windows XP, but there is no guarantee.

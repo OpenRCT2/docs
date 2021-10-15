@@ -26,7 +26,7 @@ OpenRCT2 supports headless mode, useful for dedicated servers. You can enable he
 
 ``openrct2 host <saved game path> --headless``
 
-Additional arguments can be used to change the behavior of the server.
+Additional arguments can be used to change the behaviour of the server.
 
 ======================   =============================  ==================================================
     Argument                 Variable                     Description
