@@ -50,7 +50,7 @@ master_doc = 'index'
 todays_date = date.today()
 
 project = u'OpenRCT2'
-copyright = u'2015-' + todays_date.year + ', OpenRCT2'
+copyright = u'2015-' + str(todays_date.year) + ', OpenRCT2'
 author = u'OpenRCT2, IntelOrca, duncans_pumpkin, Gymnasiast'
 
 # The version info for the project you're documenting, acts as replacement for
