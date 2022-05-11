@@ -1,7 +1,13 @@
 Installing OpenRCT2 on macOS
 ============================
 
+Installing OpenRCT2 itself
+--------------------------
+
 To install OpenRCT2 on macOS, go to https://openrct2.io/ and download either the latest release or a development build. The builds are packages in a ZIP file. Extract it, then drag OpenRCT2.app to Applications.
+
+Getting the RCT2 files (required)
+---------------------------------
 
 In order to run, OpenRCT2 will need some files from RollerCoaster Tycoon 2. If you have a Windows machine at hand, you can simply install it and then copy the ``RollerCoaster Tycoon 2`` folder to your Mac. It does not matter where you place this folder, but keep a note where you put it, as OpenRCT2 will ask for this location when it starts for the first time.
 

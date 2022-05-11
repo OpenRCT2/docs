@@ -7,4 +7,4 @@ Installing
    system-requirements
    installing-on-windows
    installing-on-macos
-   installing-on-linux
+   installing-on-linux-bsd
