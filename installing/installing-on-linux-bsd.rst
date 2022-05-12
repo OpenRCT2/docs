@@ -36,23 +36,18 @@ Ubuntu, Linux Mint and derivatives
 We have provided a PPA for OpenRCT2. These instructions must be executed from a Terminal. You must first pick between release and develop builds.
 
 If you prefer release builds, use this:
-
 ``sudo add-apt-repository ppa:openrct2/nightly``
 
 If you prefer develop builds, use this:
-
 ``sudo add-apt-repository ppa:openrct2/nightly``
 
 Then, install OpenRCT2:
-
 ``sudo apt install openrct2``
 
 If you have a GOG.com version of RCT2 or RCT1, also install ``innoextract``:
-
 ``sudo apt install innoextract``
 
 If you have a CD version of RCT2, also install ``unshield``:
-
 ``sudo apt install unshield``
 
 You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
