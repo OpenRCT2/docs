@@ -26,7 +26,7 @@ Flatpak (generic Linux)
 
 Go to https://flathub.org/apps/details/io.openrct2.OpenRCT2, click the Install button and follow the on-screen instructions.
 
-If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you have a CD version of RCT2, install ``unshield``. (Most Linux distributions have it preinstalled, especially if you have GNOME or KDE installed.) 
+If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you have a CD version of RCT2, install ``unshield``. Also make sure that you have Zenity or Kdialog installed. (Most Linux distributions have it preinstalled, especially if you have GNOME or KDE installed.) 
 
 You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
 
