@@ -36,7 +36,7 @@ Ubuntu, Linux Mint and derivatives
 We have provided a PPA for OpenRCT2. These instructions must be executed from a Terminal. You must first pick between release and develop builds.
 
 If you prefer release builds, use this:
-``sudo add-apt-repository ppa:openrct2/nightly``
+``sudo add-apt-repository ppa:openrct2/master``
 
 If you prefer develop builds, use this:
 ``sudo add-apt-repository ppa:openrct2/nightly``
