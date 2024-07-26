@@ -21,3 +21,11 @@ Be sure to follow these guidelines prior to writing pages, taking screenshots/GI
 
 If you need ideas on what to write, there is a draft of the Table of Contents here: https://github.com/OpenRCT2/docs/blob/master/toc.md  
 *Make sure to focus on the bits under “Playing” first (see point 4)*
+
+## Building:
+
+If you want to build the docs yourself, you’ll need Python 3, as well as a few additional libraries. On Debian-like, these can be installed as follows:
+
+```sh
+sudo apt install python3-packaging python3-jinja2 python3-snowballstemmer python3-imagesize python3-alabaster
+```
