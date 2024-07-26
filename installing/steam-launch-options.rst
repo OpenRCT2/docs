@@ -1,5 +1,5 @@
 Link OpenRCT2 with Steam
-===================
+========================
 
 After you have installed OpenRCT2, you may want to link it with Steam's RollerCoaster Tycoon 2: Triple Thrill Pack to record the playtime or something.
 
