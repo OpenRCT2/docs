@@ -1,10 +1,8 @@
 Installing OpenRCT2 on Linux/BSD
 ================================
 
-Note: this page is still under construction.
-
-Installing OpenRCT2 itself
---------------------------
+Installing
+----------
 
 OpenRCT2 is in the repositories of several Linux distributions and the ports tree of several BSD flavours. Additionally, there are AppImage and Flatpak builds that work on most Linux distributions. You can also compile the game yourself if you desire.
 
@@ -17,7 +15,7 @@ You can download the AppImage by going to our official website, https://openrct2
 
 After download, mark the file as executable. OpenRCT2 can now be run by double-clicking it. (Don’t run it just yet—you need to install RCT2 first.)
 
-If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you have a CD version of RCT2, install ``unshield``. Also make sure that you have Zenity or Kdialog installed. (Most Linux distributions have it preinstalled, especially if you have GNOME or KDE installed.) 
+If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you have a CD version of RCT2, install ``unshield``. Also make sure that you have Zenity or Kdialog installed. (Most Linux distributions have it preinstalled, especially if you have GNOME or KDE installed.)
 
 You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
 
@@ -26,7 +24,7 @@ Flatpak (generic Linux)
 
 Go to https://flathub.org/apps/details/io.openrct2.OpenRCT2, click the Install button and follow the on-screen instructions.
 
-If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you have a CD version of RCT2, install ``unshield``. Also make sure that you have Zenity or Kdialog installed. (Most Linux distributions have it preinstalled, especially if you have GNOME or KDE installed.) 
+If you have a CD version of RCT2, install ``unshield``. Also make sure that you have Zenity or Kdialog installed. (Most Linux distributions have it preinstalled, especially if you have GNOME or KDE installed.) 
 
 You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
 
@@ -35,20 +33,128 @@ Ubuntu, Linux Mint and derivatives
 
 We have provided a PPA for OpenRCT2. These instructions must be executed from a Terminal. You must first pick between release and develop builds.
 
-If you prefer release builds, use this:
-``sudo add-apt-repository ppa:openrct2/master``
+If you prefer release builds, use this::
 
-If you prefer develop builds, use this:
-``sudo add-apt-repository ppa:openrct2/nightly``
+    sudo add-apt-repository ppa:openrct2/master
 
-Then, install OpenRCT2:
-``sudo apt install openrct2``
+If you prefer develop builds, use this::
 
-If you have a GOG.com version of RCT2 or RCT1, also install ``innoextract``:
-``sudo apt install innoextract``
+    sudo add-apt-repository ppa:openrct2/nightly
 
-If you have a CD version of RCT2, also install ``unshield``:
-``sudo apt install unshield``
+Then, install OpenRCT2::
+
+    sudo apt install openrct2
+
+If you have a GOG.com version of RCT2 or RCT1, also install ``innoextract``::
+
+    sudo apt install innoextract
+
+If you have a CD version of RCT2, also install ``unshield``::
+
+    sudo apt install unshield
+
+You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
+
+Arch Linux
+^^^^^^^^^^
+
+If you want the release build (some servers use these), install the standard `openrct2 <https://archlinux.org/packages/community/x86_64/openrct2/>`_ package::
+
+    sudo pacman -S openrct2
+
+Alternatively, if you want the latest development build, install the -git package from the `AUR <https://aur.archlinux.org/>`_. The dev builds are analogous to beta versions - they should work, but don't expect everything to be perfect.
+::
+
+    git clone https://aur.archlinux.org/openrct2-git.git
+    cd openrct2-git
+    makepkg -si
+
+If you have a GOG.com version of RCT2 or RCT1, also install ``innoextract``::
+
+    sudo pacman -S innoextract
+
+If you have a CD version of RCT2, also install ``unshield``::
+
+    sudo pacman -S unshield
+
+You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
+
+OpenSUSE
+^^^^^^^^
+
+You can obtain the latest release or develop version of OpenRCT2 from the `OBS <https://build.opensuse.org/package/show/games/openrct2>`_::
+
+    sudo zypper install openrct2
+
+If you have a GOG.com version of RCT2 or RCT1, also install ``innoextract``::
+
+    sudo zypper install innoextract
+
+If you have a CD version of RCT2, also install ``unshield``::
+
+    sudo zypper install unshield
+
+You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
+
+Gentoo
+^^^^^^
+
+Accept ~amd64 (or equivalent for your arch) for the openrct2 package, add this to /etc/portage/package.accept_keywords/openrct2 (for example)::
+
+    games-simulation/openrct2 ~amd64
+
+Alternatively, if you want the latest development build, use the live ebuild. The live ebuild will compile the latest dev version, and although they should work, it may not always compile (when upstream build has changed but the ebuild hasn't caught up yet).
+::
+
+    =games-simulation/openrct2-9999 **
+    
+And then install the package::
+
+    sudo emerge --ask --verbose openrct2
+
+If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you have a CD version of RCT2, install ``unshield``. Also make sure that you have Zenity or Kdialog installed.
+
+You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
+
+Fedora
+^^^^^^
+
+You will need the dependencies to build the game - there is no package for the game as of yet::
+
+    sudo dnf install gcc gcc-c++ json-devel \
+    openssl-devel SDL2-devel libicu-devel \
+    speexdsp-devel libcurl-devel \
+    cmake fontconfig-devel freetype-devel \
+    libpng-devel libzip-devel mesa-libGL-devel \
+    duktape-devel flac-devel libvorbis-devel
+
+Build the game::
+
+    git clone https://github.com/OpenRCT2/OpenRCT2.git && cd ./OpenRCT2 && mkdir build && cd build && cmake ../ && make
+
+Set up the files::
+
+    cp -r ../data/ ./data/ && make g2 && mv ./g2.dat ./data/g2.dat
+
+If you do not run the following command, then assets are not downloaded, and libraries are not put where they need to go. The app will start, but will have no assets. Sudo is needed to put assets in /usr and /lib.
+::
+
+    sudo make install
+
+You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
+
+NixOS
+^^^^^
+
+The installation is currently based on your nixpkgs-channel. If you're using the unstable channel, just install the package::
+
+    nix-env -iA nixos.openrct2
+    
+If you're on an stable channel (like 17.09 or older) you can install this single package from the unstable channel::
+    
+    nix-env -f https://github.com/NixOS/nixpkgs-channels/archive/nixos-unstable.tar.gz -iA openrct2
+    
+Alternatively you can build the `expression <https://github.com/NixOS/nixpkgs/blob/master/pkgs/games/openrct2/default.nix>`_ from the nixpkgs.
 
 You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
 
@@ -58,6 +164,8 @@ Compiling yourself
 Follow the instructions here: https://github.com/OpenRCT2/OpenRCT2/wiki/Building-OpenRCT2-on-Linux.
 
 .. _LinuxBSDGetRCT2:
+
+If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you have a CD version of RCT2, install ``unshield``.
 
 Getting the RCT2 files (required)
 ---------------------------------
@@ -91,6 +199,15 @@ Steam
 Since RollerCoaster Tycoon 1 is a Windows game, you must first enable Steam Play if you haven’t done so already. To do this, use the menus: :menuselection:`Steam --> Settings --> Steam Play` and tick the options ``Enable Steam Play for supported titles`` and ``Enable Steam Play for all other titles``.
 
 With Steam Play enabled, the Install button should now be enabled. Click it. Once this is done, you can now link to it from OpenRCT2. To do this, start OpenRCT2, click ``Options`` and navigate to the tab with the wrench. On the bottom of that tab is a widget that you can click to set the directory. A directory browser will now open. Point it to ``/home/<username>/.local/share/Steam/steamapps/common/RollerCoaster Tycoon Deluxe``.
+
+Setting an RCT2 path without Zenity or Kdialog
+----------------------------------------------
+
+When OpenRCT2 first launches, you will be prompted to select the directory where you installed RCT2. This required either Zenity or Kdialog to be installed.
+
+You can also set the RCT2 path from the command line should you wish::
+
+    openrct2 set-rct2 /path/to/rct2-install
 
 .. rubric:: Footnotes
 
