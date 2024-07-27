@@ -3,14 +3,22 @@ Multiplayer
 
 Multiplayer is a new game mode introduced in OpenRCT2 that allows two or more players to cooperatively play and build on the same park. Similar to games like OpenTTD and MineCraft, a server can be setup which runs a game allowing players to connect to it. When a player joins a server, the park will be downloaded to the client allowing them to play it.
 
-The multiplayer window can be accessed from the main menu screen via the Multiplayer button at the bottom of the screen.
+The multiplayer window can be accessed from the main menu screen via the Multiplayer button at the bottom of the screen:
+
+.. image:: _static/main-menu.png
 
 Connecting to a server
 ----------------------
 
-When you open the multiplayer window you will see a list of public servers and servers you have saved. Type your name or alias into the player name field - this is the name that will be shown to other players in multiplayer games. To connect to a server, click and hold the server you would like to join and then click "Join server" from the popup menu. If the server is password protected you will need to enter in the correct password to join. The park will then be downloaded to your client, this make take a few seconds to a few minutes depending on the speed of the connection from the server to your client and the size of the park.
+When you open the multiplayer window you will see a list of public servers and servers you have saved. Type your name or alias into the player name field - this is the name that will be shown to other players in multiplayer games. 
+
+Note the red and green circles on the right hand side, and the text in the bottom right referring to the network version. You can only connect to servers that are on the same network version as you. Hovering over the circles will tell you what version the server is running. If it is higher than yours, update your copy of OpenRCT2. If it is lower than yours, you'll need to contact the server admins and ask them to update.
+
+To connect to a server, click and hold the server you would like to join and then click "Join server" from the popup menu. If the server is password protected you will need to enter in the correct password to join. The park will then be downloaded to your client, this make take a few seconds to a few minutes depending on the speed of the connection from the server to your client and the size of the park.
 
 If you want to join a server that is not advertised on the public server list, you must click the "New server" button and enter the hostname or IP address (and optionally a port if the server is not using the default OpenRCT2 port, 11753). Upon doing this, the server will be saved to your server list so you do not have to type the address in every time you want to join it.
+
+.. image:: _static/server-list.png
 
 Starting a server 
 -----------------
