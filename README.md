@@ -27,5 +27,5 @@ If you need ideas on what to write, there is a draft of the Table of Contents he
 If you want to build the docs yourself, you’ll need Python 3, as well as a few additional libraries. On Debian-like, these can be installed as follows:
 
 ```sh
-sudo apt install python3-packaging python3-jinja2 python3-snowballstemmer python3-imagesize python3-alabaster
+sudo apt install python3-packaging python3-jinja2 python3-snowballstemmer python3-imagesize python3-alabaster python3-sphinx python3-sphinx-rtd-theme sphinx-common
 ```
