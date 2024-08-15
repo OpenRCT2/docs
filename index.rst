@@ -17,3 +17,4 @@ Contents:
    setup/index.rst
    playing/index.rst
    advanced/index.rst
+   faq/index.rst
