@@ -24,7 +24,10 @@ Once this is done, you can now start OpenRCT2. A file picker will open, direct t
 
 Steam
 ^^^^^
-Launch Steam with the console enabled::
+
+First, you’ll need to start the Terminal. You can open this through Spotlight, by pressing Command + Space and typing its name.
+
+We need to launch Steam with the console enabled. To do this, copy and paste the instruction below into the Terminal window, then press Enter::
 
     /Applications/Steam.app/Contents/MacOS/steam_osx -console
 
