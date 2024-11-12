@@ -27,7 +27,7 @@ There are a number of options dedicated to how the game runs on your screen.
 
 * **Window scale factor**
 
-  Determines the scale the game will be rendered at. At ``1.00`` scale factor, the game runs at its original scale of 1 game pixel to 1 screen pixel. This setting is useful for larger resolutions, where this scale makes the UI extremely small and otherwise unusable. At non-integer values, this enables the *Scaling quality* setting below.
+  Determines the scale the game will be rendered at. At ``1.00`` scale factor, the game runs at its original scale of 1 game pixel to 1 screen pixel. This setting is useful for larger resolutions, where this scale makes the UI extremely small and otherwise unusable.
 
 * **Drawing Engine**
 
@@ -37,26 +37,11 @@ There are a number of options dedicated to how the game runs on your screen.
   * *Software (hardware display)* - the game uses a software renderer based on the CPU to render the game, while it uses the hardware device to draw the rendered image to the screen.
   * *OpenGL (experimental)* - the game uses OpenGL to render and draw the game.
 
-  Selecting a hardware renderer (*Software (hardware display)* or *OpenGL*) enables **Scaling quality** if the **Window scale factor** is not an integer, **Pause game when Steam overlay is open**, and **Use vertical sync**.
+  Selecting a hardware renderer (*Software (hardware display)* or *OpenGL*) enables **Pause game when Steam overlay is open**, and **Use vertical sync**.
 
-  * **Scaling Quality**
+* **Pause game when Steam overlay is open**
 
-    Requires a hardware renderer. Can be one of two values:
-
-    * *Linear* - Scaling is smooth, but blurry.
-    * *Smooth Nearest Neighbour* - Scaling is sharp but takes a bit more performance.
-
-    .. figure:: _static/scaling_quality_linear.png
-
-       Linear
-
-    .. figure:: _static/scaling_quality_smooth.png
-
-       Smooth Nearest Neighbour
-
-  * **Pause game when Steam overlay is open**
-
-    Requires a hardware renderer. Enables the game to be paused when using the Steam overlay.
+  Requires a hardware renderer. Enables the game to be paused when using the Steam overlay.
 
 * **Uncap FPS**
 
