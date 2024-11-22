@@ -55,6 +55,25 @@ If you have a CD version of RCT2, also install ``unshield``::
 
 You can now proceed to :ref:`Getting the RCT2 files (required)<LinuxBSDGetRCT2>`.
 
+Debian
+^^^^^^
+
+OpenRCT2 is in the Debian repositories as of Bookworm, released in 2023. You can install it with::
+
+    sudo apt install openrct2
+
+Also note that Debian has the game-data-packager, which can help you extract the RCT2 files more easily. OpenRCT2
+will automatically look in the appropriate directories. This is however, not fully documented yet.
+
+Also keep these things in mind:
+1. Debian removes a few objects, so some parks may not load. You can however take these from a ZIP build of OpenRCT2 and
+add them to your custom content folder, or switch a build that is directly supplied by OpenRCT2 instead.
+2. Debian does not update its OpenRCT2 package. To get around this, you can either enable the backports repository or
+use one of the other options instead.
+
+If the repository version of OpenRCT2 is not a good fit, you can still use the Launcher or AppImage builds,
+or just compile OpenRCT2 yourself.
+
 Arch Linux
 ^^^^^^^^^^
 
