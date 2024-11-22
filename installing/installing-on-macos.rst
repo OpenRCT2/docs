@@ -16,9 +16,10 @@ From a GOG.com offline installer
 
 You will need to use the offline installer for the game, the default GOG Galaxy installer will not work with this method.
 
-On gog.com, open your library. Hover over the thumbnail of RCT2 and a button with an arrow will appear. Click it, then select ``View Downloads``. At the bottom of the pop-up there will be a section called “Download offline backup game installers”. Click the line under that and the installer will be downloaded.
+On gog.com, open your library. Hover over the thumbnail of RCT2 and a button with an arrow will appear. Click it, then select ``View Downloads``. At the bottom of the pop-up there will be a section called “Download offline backup game installers”.
+There are two files you need to download, a 1 MB .exe file and a 553 MB .bin file, labelled ‘Part 1 of 2’ and ‘Part 2 and 2’. You can click on them to download. Make sure you download both files to the same directory.
 
-Then, get this utility called Extractor: https://macsourceports.com/utility/extractor . Use the to extract the contents of the downloaded file somewhere you like. Keep a note of where you extracted it.
+Then, get this utility called Extractor: https://macsourceports.com/utility/extractor . When prompted, give it the path to the .exe file you downloaded in the previous step, and extract the installer contents somewhere you like. Keep a note of where you extracted it.
 
 Once this is done, you can now start OpenRCT2. A file picker will open, direct to the directory where you extracted that GOG installer (hint: this directory will contain the rct2.exe file) and OpenRCT2 should now work.
 
