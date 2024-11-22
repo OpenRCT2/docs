@@ -66,10 +66,11 @@ Also note that Debian has the game-data-packager, which can help you extract the
 will automatically look in the appropriate directories. This is however, not fully documented yet.
 
 Also keep these things in mind:
+
 1. Debian removes a few objects, so some parks may not load. You can however take these from a ZIP build of OpenRCT2 and
-add them to your custom content folder, or switch a build that is directly supplied by OpenRCT2 instead.
+   add them to your custom content folder, or switch a build that is directly supplied by OpenRCT2 instead.
 2. Debian does not update its OpenRCT2 package. To get around this, you can either enable the backports repository or
-use one of the other options instead.
+   use one of the other options instead.
 
 If the repository version of OpenRCT2 is not a good fit, you can still use the Launcher or AppImage builds,
 or just compile OpenRCT2 yourself.
