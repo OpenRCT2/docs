@@ -1,7 +1,7 @@
 System requirements
 ===================
 
-OpenRCT2 should be able to run on almost every computer made in the last five years, and probably even older computers.
+OpenRCT2 should be able to run on almost every computer made since 2012, and probably on even older systems.
 An important thing to consider is that the game will use the native resolution of your monitor by default. If you run into performance problems, try lowering the used resolution in the Options window (this requires regular fullscreen mode) or resizing the window if you use windowed mode.
 
 OpenRCT2 needs about 250 MB of disk space, including the required files from RollerCoaster Tycoon 2. You will need additional disk space for your own scenarios, saved games and custom objects. A saved game can take between 500 kB and 7 MB, depending on the amount of custom objects. In general, having 1 GB or more of free disk space is recommended.
