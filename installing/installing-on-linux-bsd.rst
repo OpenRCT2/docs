@@ -224,7 +224,7 @@ With Steam Play enabled, the Install button should now be enabled. Click it. Onc
 Setting an RCT2 path without Zenity or Kdialog
 ----------------------------------------------
 
-When OpenRCT2 first launches, you will be prompted to select the directory where you installed RCT2. This required either Zenity or Kdialog to be installed.
+When OpenRCT2 first launches, you will be prompted to select the directory where you installed RCT2. This requires either Zenity or Kdialog to be installed.
 
 You can also set the RCT2 path from the command line should you wish::
 
