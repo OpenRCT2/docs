@@ -197,7 +197,9 @@ Steam
 
 Since RollerCoaster Tycoon 2 is a Windows game, you must first enable Steam Play if you haven’t done so already. To do this, use the menus: :menuselection:`Steam --> Settings --> Steam Play` and tick the options ``Enable Steam Play for supported titles`` and ``Enable Steam Play for all other titles``.
 
-With Steam Play enabled, the Install button should now be enabled. Click it. Once this is done, you can now start OpenRCT2. If asked to provide the location of the files, select ``I have already installed RollerCoaster Tycoon 2``. A directory browser will now open. Point it to ``/home/<username>/.local/share/Steam/steamapps/common/Rollercoaster Tycoon 2``. 
+With Steam Play enabled, the Install button should now be enabled. Click it. Once this is done, you can now start OpenRCT2. If asked to provide the location of the files, select ``I have already installed RollerCoaster Tycoon 2``. A directory browser will now open. Point it to the location of the installed files (which can be found by clicking ``Settings (cog) > Properties > Installed Files > Browse`` from the game page within ths Steam Library). Typical locations include:
+- ``/home/<username>/.local/share/Steam/steamapps/common/Rollercoaster Tycoon 2``. 
+- ``/home/<username>/snap/steam/common/.local/share/Steam/steamapps/common/Rollercoaster Tycoon 2``
 
 GOG.com
 ^^^^^^^
