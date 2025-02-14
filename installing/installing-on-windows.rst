@@ -4,7 +4,7 @@ Installing OpenRCT2 on Windows
 Extracting the RCT2 files (and optionally RCT1)
 -----------------------------------------------
 
-Installing RollerCoaster Tycoon 2 or RCT Classic as you normally would. If you also have RCT1 (not required, but recommend), install that as well. The games do not have to run, as OpenRCT2 just needs the graphic and music files.
+Install RollerCoaster Tycoon 2 or RCT Classic as you normally would. If you also have RCT1 (not required, but recommend), install that as well. The games do not have to run, as OpenRCT2 just needs the graphic and music files.
 
 Installing OpenRCT2
 -------------------
