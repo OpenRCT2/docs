@@ -190,7 +190,7 @@ If you have a GOG.com version of RCT2 or RCT1, install ``innoextract``. If you h
 Getting the RCT2 files (required)
 ---------------------------------
 
-We tested several versions of RCT2 and they all work [#f1]_. If you do not yet own RCT2, we recommend that you buy it on https://gog.com. This is because OpenRCT2 can automatically extract the files from the GOG versions, provided the required ``innoextract`` program is installed. (This is bundled with the Flatpak build.)
+We tested several versions of RCT2 and they all work. If you do not yet own RCT2, we recommend that you buy it on https://gog.com. This is because OpenRCT2 can automatically extract the files from the GOG versions, provided the required ``innoextract`` program is installed. (This is bundled with the Flatpak build.)
 
 Steam
 ^^^^^
@@ -248,7 +248,3 @@ When OpenRCT2 first launches, you will be prompted to select the directory where
 You can also set the RCT2 path from the command line should you wish::
 
     openrct2 set-rct2 /path/to/rct2-install
-
-.. rubric:: Footnotes
-
-.. [#f1] There are some font issues with the Russian edition. Since OpenRCT2 ships with its own translations and with an extensive font that also contains all the required Russian characters, we strongly recommend installing the English edition of RCT2 even if you want to play in Russian.
