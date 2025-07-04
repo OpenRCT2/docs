@@ -216,6 +216,8 @@ Once this is done, you can now start OpenRCT2. You will be asked to provide the 
 Getting the RCT1 files (optional, but recommended)
 --------------------------------------------------
 
+Depending on your situation, your RCT1 install may be autodetected. If not, you will have provide a location manually.
+
 Extracting the RCT1 files works much the same way as those from RCT2.
 
 Steam
