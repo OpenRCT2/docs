@@ -223,7 +223,22 @@ Steam
 
 Since RollerCoaster Tycoon 1 is a Windows game, you must first enable Steam Play if you haven’t done so already. To do this, use the menus: :menuselection:`Steam --> Settings --> Steam Play` and tick the options ``Enable Steam Play for supported titles`` and ``Enable Steam Play for all other titles``.
 
-With Steam Play enabled, the Install button should now be enabled. Click it. Once this is done, you can now link to it from OpenRCT2. To do this, start OpenRCT2, click ``Options`` and navigate to the tab with the wrench. On the bottom of that tab is a widget that you can click to set the directory. A directory browser will now open. Point it to ``/home/<username>/.local/share/Steam/steamapps/common/RollerCoaster Tycoon Deluxe``.
+With Steam Play enabled, the Install button should now be enabled. Click it. Once this is done, you can now link to it from OpenRCT2. To do this, start OpenRCT2, click ``Options`` and navigate to the tab with the wrench. On the top of that tab is a widget that you can click to set the directory. A directory browser will now open. Point it to ``/home/<username>/.local/share/Steam/steamapps/common/RollerCoaster Tycoon Deluxe``.
+
+GOG
+^^^
+
+First, install the ``innoextract`` package. See the earlier paragraphs for distribution-specific instructions if needed.
+
+You will need to use the offline installer for the game, the default GOG Galaxy installer will not work with this method.
+
+On gog.com, open your library. Hover over the thumbnail of RCT Deluxe and a button with an arrow will appear. Click it, then select ``View Downloads``. At the bottom of the pop-up there will be a section called “Download offline backup game installers”. Download the .exe file listed here.
+
+Afterwards, open a terminal and execute the following command:
+
+    innoextract <path to downloaded .exe>
+
+Once this is done, you can now link to it from OpenRCT2. To do this, start OpenRCT2, click ``Options`` and navigate to the tab with the wrench. On the top of that tab is a widget that you can click to set the directory. A directory browser will now open. Point it to the folder where ``rct.exe`` resides.
 
 Setting an RCT2 path without Zenity or Kdialog
 ----------------------------------------------
