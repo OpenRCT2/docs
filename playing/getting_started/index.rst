@@ -14,7 +14,7 @@ To start a new scenario, click on the “Start a new game” button.
 
 .. image:: _static/new_game_button.png
 
-This will bring up a menu with many different scenarios to choose from. By hovering over the names of the parks, you can see a brief description of the scenario along with its objective.
+This will bring up a menu with many different scenarios to choose from. By hovering over the names of the parks, you can see a brief description of the scenario along with its objective, and an image preview.
 
 .. image:: _static/scenario_selection.png
 
