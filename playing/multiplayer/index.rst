@@ -50,3 +50,87 @@ Additional arguments can be used to change the behaviour of the server.
 Example (Windows): ``"C:\MyOpenRCTInstall\openrct2.exe" host "C:\MyServerSaves\MyServer.sv6" --port 11753 --headless --console --verbose --user-data-path "E:\MyServerConfig"``
 
 Additional server information can be changed in the ``config.ini`` file. In Windows, by default, this is located under ``"%userprofile%/Documents/OpenRCT2/"``
+
+Starting a server (Windows batch script)
+----------------------------
+
+The following batch file (``.bat``) is useful to those that want to host a multiplayer server and ensure that if the OpenRCT2 server crashes it can gracefully restart using the most recent autosave.
+
+Depending on where your OpenRCT2 game is installed, and where your autosave directory is located, you may need to change the variables in lines 3-5 of the script.
+
+To use:
+    1. Copy the full content of the script below
+    2. Paste into a blank Notepad
+    3. Edit the variables on lines 3-5 (as required)
+    4. Save the file somewhere easily assessible with the extension ``.bat`` (for example, on your desktop with the name ``Start OpenRCT2 Server.bat``)
+
+Whenever you want to start your server, just run the ``.bat`` file that you saved on step 4.::
+
+    CHCP 65001 >nul
+    @echo off
+    set OPENRCT2COM=C:\Games\OpenRCT2\openrct2.com
+    set USERDATAPATH=%userprofile%\Documents\OpenRCT2
+    set AUTOSAVEPATH=%userprofile%\Documents\OpenRCT2\save\autosave
+    set PORT=11753
+    set PASSWORD=mypasswordhere
+
+
+    set CONFIGSHOWN=0
+
+    :getautosave
+    set NEWESTSAVE=
+    cd /d "%AUTOSAVEPATH%"
+    for /f "eol=: delims=" %%F in ('dir /b /od *.sv6') do @set "NEWESTSAVE=%%F"
+    if %CONFIGSHOWN%==0 goto displayconfig 
+    goto restartserver
+
+    :displayconfig
+    set PADDED=%OPENRCT2COM%                                                                          .
+    set OPENRCT2COMPADDED=%PADDED:~0,74%
+    set PADDED=%USERDATAPATH%                                                                          .
+    set USERDATAPATHPADDED=%PADDED:~0,74%
+    set PADDED=%AUTOSAVEPATH%                                                                          .
+    set AUTOSAVEPATHPADDED=%PADDED:~0,74%
+    set PADDED=%NEWESTSAVE%                                                                          .
+    set AUTOSAVEFILEPADDED=%PADDED:~0,74%
+    set PADDED=%PORT%                                                                          .
+    set PORTPADDED=%PADDED:~0,74%
+    set PADDED=%PASSWORD%                                                                          .
+    set PASSWORDPADDED=%PADDED:~0,74%
+
+    echo ╔════════════════════════════════════════════════════════════════════════════╗
+    echo ║                     OpenRCT2 Multiplayer Configuration                     ║
+    echo ╠════════════════════════════════════════════════════════════════════════════╣
+    echo ║                                                                            ║
+    echo ║ OpenRCT2.com file:                                                         ║
+    echo ║  %OPENRCT2COMPADDED%║
+    echo ║ User Data Path:                                                            ║
+    echo ║  %USERDATAPATHPADDED%║
+    echo ║ Auto Save Path:                                                            ║
+    echo ║  %AUTOSAVEPATHPADDED%║
+    echo ║ Auto Save File:                                                            ║
+    echo ║  %AUTOSAVEFILEPADDED%║
+    echo ║ Server Port:                                                               ║
+    echo ║  %PORTPADDED%║
+    echo ║ Server Password:                                                           ║
+    echo ║  %PASSWORDPADDED%║
+    echo ║                                                                            ║
+    echo ╚════════════════════════════════════════════════════════════════════════════╝
+    echo.
+    set CONFIGSHOWN=1
+    goto startserver
+
+    :startserver
+    echo Starting OpenRCT2 multiplayer server...
+
+    :restartserver
+    IF "%NEWESTSAVE:~1%"=="~1" (
+    echo Starting new map
+    "%OPENRCT2COM%" --port %PORT% --user-data-path "%USERDATAPATH%" --password %PASSWORD% --headless
+    ) else (
+    echo Loading saved game %NEWESTSAVE%
+    "%OPENRCT2COM%" host "%AUTOSAVEPATH%\%NEWESTSAVE%" --port %PORT% --user-data-path "%USERDATAPATH%" --password %PASSWORD% --headless
+    )
+    echo Crash detected. Restarting...
+    CHCP 65001 >nul
+    goto getautosave
