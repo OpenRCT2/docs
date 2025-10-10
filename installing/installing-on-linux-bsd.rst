@@ -209,7 +209,7 @@ GOG.com
 You will need to use the offline installer for the game, the default GOG Galaxy installer will not work with this method.
 
 On gog.com, open your library. Hover over the thumbnail of RCT2 and a button with an arrow will appear. Click it, then select ``View Downloads``. At the bottom of the pop-up there will be a section called “Download offline backup game installers”.
-There are two files you need to download, a 1 MB .exe file and a 553 MB .bin file, labelled ‘Part 1 of 2’ and ‘Part 2 and 2’. You can click on them to download. Make sure you download both files to the same directory.
+There are two files you need to download, a 1 MB .exe file and a 553 MB .bin file, labelled ‘Part 1 of 2’ and ‘Part 2 of 2’. You can click on them to download. Make sure you download both files to the same directory.
 
 Once this is done, you can now start OpenRCT2. You will be asked to provide the location of your files. Select ``I have downloaded the offline GOG installer for RollerCoaster Tycoon 2, but I haven’t installed it yet``. A file picker will open, simply point it to the .exe file you just downloaded and OpenRCT2 should take care of the rest for you.
 
