@@ -143,7 +143,7 @@ You will need the dependencies to build the game - there is no package for the g
 
     sudo dnf install gcc gcc-c++ json-devel \
     openssl-devel SDL2-devel libicu-devel \
-    speexdsp-devel libcurl-devel \
+    speexdsp-devel libcurl-devel libzstd-devel \
     cmake fontconfig-devel freetype-devel \
     libpng-devel libzip-devel mesa-libGL-devel \
     duktape-devel flac-devel libvorbis-devel
