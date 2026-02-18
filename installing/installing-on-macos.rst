@@ -26,6 +26,15 @@ Once this is done, you can now start OpenRCT2. A file picker will open, direct t
 Steam
 ^^^^^
 
+If you own RCT Classic, install it as you normally would.
+
+It is also possible to install RCT1 and RCT2, but Steam needs to be instructed in a specific way to allow non-Mac games. The easiest way is to just run OpenRCT2 and select the option “I own the game on Steam, but I haven’t installed it yet” and follow the on-screen instructions.
+
+Manual installation via Steam
+"""""""""""""""""""""""""""""
+
+If the method mentioned above does not work for you, you can also try and install RCT2 manually. 
+
 First, you’ll need to start the Terminal. You can open this through Spotlight, by pressing Command + Space and typing its name.
 
 We need to launch Steam with the console enabled. To do this, copy and paste the instruction below into the Terminal window, then press Enter::
