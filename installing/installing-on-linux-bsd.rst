@@ -150,11 +150,11 @@ You will need the dependencies to build the game - there is no package for the g
 
 Build the game::
 
-    git clone https://github.com/OpenRCT2/OpenRCT2.git && cd ./OpenRCT2 && mkdir build && cd build && cmake ../ && make
+    git clone https://github.com/OpenRCT2/OpenRCT2.git && cd ./OpenRCT2 && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release ../ && make
 
 Set up the files::
 
-    cp -r ../data/ ./data/ && make g2 && mv ./g2.dat ./data/g2.dat
+    cp -r ../data/ ./data/ && make graphics && mv ./g2.dat ./data/g2.dat
 
 If you do not run the following command, then assets are not downloaded, and libraries are not put where they need to go. The app will start, but will have no assets. Sudo is needed to put assets in /usr and /lib.
 ::
