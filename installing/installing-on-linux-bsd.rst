@@ -146,7 +146,7 @@ You will need the dependencies to build the game - there is no package for the g
     speexdsp-devel libcurl-devel libzstd-devel \
     cmake fontconfig-devel freetype-devel \
     libpng-devel libzip-devel mesa-libGL-devel \
-    duktape-devel flac-devel libvorbis-devel
+    flac-devel libvorbis-devel
 
 Build the game::
 
